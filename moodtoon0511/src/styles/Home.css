@@ -1,0 +1,187 @@
+.home {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px;
+}
+
+.hero {
+  background:
+    linear-gradient(135deg,
+    #7c5cfc,
+    #ff8ac7);
+
+  border-radius: 40px;
+  padding: 80px;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 54px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 22px;
+}
+
+.hero button {
+  margin-top: 30px;
+  border: none;
+  background: white;
+  color: #7c5cfc;
+  padding: 18px 35px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.mood-section {
+  margin-top: 60px;
+}
+
+.mood-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.mood-buttons button {
+  border: none;
+  background: white;
+  padding: 15px 24px;
+  border-radius: 999px;
+  box-shadow:
+    0 4px 12px rgba(0,0,0,0.08);
+}
+
+.info-section {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.weather-card,
+.mood-box {
+  background: white;
+  border-radius: 30px;
+  padding: 30px;
+  flex: 1;
+  box-shadow:
+    0 4px 18px rgba(0,0,0,0.06);
+}
+
+.weather-title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.weather-main {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 20px 0 10px;
+}
+
+.selected {
+  background: #7c5cfc !important;
+  color: white;
+}
+
+.popular-section {
+  margin-top: 70px;
+}
+
+.webtoon-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(4,1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.webtoon-card {
+  background: white;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow:
+    0 4px 18px rgba(0,0,0,0.06);
+  transition: 0.25s;
+}
+
+.webtoon-card:hover {
+  transform: translateY(-8px);
+}
+
+.thumbnail {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin-bottom: 8px;
+}
+
+.card-content p {
+  color: #666;
+}
+
+.recommend-grid {
+  display: flex;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.recommend-card {
+  background: white;
+  color: black;
+  border-radius: 20px;
+  padding: 20px;
+  width: 220px;
+  transition: 0.25s;
+}
+
+.recommend-card h3 {
+  margin-top: 15px;
+}
+
+.recommend-card span {
+  color: #666;
+}
+
+.recommend-card:hover {
+  transform: translateY(-6px);
+}
+
+.recommend-reason {
+  margin-top: 15px;
+  opacity: 0.9;
+  line-height: 1.7;
+}
+
+.recommend-box {
+  margin-top: 40px;
+  background: linear-gradient(
+    135deg,
+    #7c5cfc,
+    #9d7dff
+  );
+
+  color: white;
+  padding: 40px;
+  border-radius: 30px;
+}
+
+.recommend-box h2 {
+  margin-bottom: 15px;
+}
+
+.recommend-box p {
+  font-size: 22px;
+  font-weight: bold;
+}
